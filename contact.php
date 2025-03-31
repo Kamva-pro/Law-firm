@@ -20,7 +20,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 <main>
     <section class="page-header">
         <div class="container">
@@ -38,21 +42,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Address</h3>
-                            <p><?php echo SITE_ADDRESS; ?></p>
+                            <p>Address</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h3>Phone</h3>
-                            <p><?php echo SITE_PHONE; ?></p>
+                            <p></p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p><?php echo SITE_EMAIL; ?></p>
+                            <p></p>
                         </div>
                     </div>
                     <div class="info-item">

@@ -1,3 +1,6 @@
+<?php
+require_once  '/opt/lampp/htdocs/law_firm/includes/config.php'; 
+?>
 <footer class="footer">
     <div class="container">
         <div class="footer-grid">
@@ -6,7 +9,7 @@
                     <a href="index.php">
                         <span class="logo-text">Justice For All</span>
                         <span class="logo-subtext">Legal Consultancy</span>
-                    </a>
+                    </a> 
                 </div>
                 <p>Providing high-quality, affordable legal services to disadvantaged communities in South Africa.</p>
             </div>

@@ -1,3 +1,66 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const counters = document.querySelectorAll('.stat-number');
+    const speed = 200;
+    
+    counters.forEach(counter => {
+        const target = +counter.getAttribute('data-count');
+        const count = +counter.innerText;
+        const increment = target / speed;
+        
+        if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 1);
+        } else {
+            counter.innerText = target;
+        }
+        
+        function updateCount() {
+            const count = +counter.innerText;
+            if (count < target) {
+                counter.innerText = Math.ceil(count + increment);
+                setTimeout(updateCount, 1);
+            } else {
+                counter.innerText = target;
+            }
+        }
+    });
+});
+
+
+// Pricing Toggle Interaction
+document.getElementById('pricingToggle').addEventListener('change', function() {
+    const pricingCards = document.querySelectorAll('.pricing-card');
+    
+    pricingCards.forEach(card => {
+        if (this.checked) {
+            // Show flat rate features
+            if (card.dataset.plan === 'hourly') {
+                card.style.display = 'none';
+            } else {
+                card.style.display = 'block';
+            }
+        } else {
+            // Show hourly features
+            if (card.dataset.plan === 'flat') {
+                card.style.display = 'none';
+            } else {
+                card.style.display = 'block';
+            }
+        }
+    });
+});
+
+// Card hover effects
+document.querySelectorAll('.pricing-card').forEach(card => {
+    card.addEventListener('mouseenter', function() {
+        this.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.15)';
+    });
+    
+    card.addEventListener('mouseleave', function() {
+        this.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.1)';
+    });
+});
+
 document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
     document.querySelector('.mobile-menu').classList.toggle('active');
 });

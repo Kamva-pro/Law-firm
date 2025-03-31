@@ -2,7 +2,11 @@
 $pageTitle = "Our Legal Team";
 include 'includes/header.php'; 
 ?>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 <main>
     <section class="page-header">
         <div class="container">
@@ -71,6 +75,35 @@ include 'includes/header.php';
                         <div class="member-contact">
                             <p><i class="fas fa-envelope"></i> nandi@justiceforall.com</p>
                             <p><i class="fas fa-phone"></i> +27 12 345 6784</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Sipho Dlamini">
+                    </div>
+                    <div class="member-info">
+                        <h3>Adv. Sipho Dlamini</h3>
+                        <p class="position">Associate - Contracts & Civil Law</p>
+                        <p>Adv. Dlamini specializes in contract law and civil disputes, helping small businesses and individuals navigate complex legal agreements.</p>
+                        <div class="member-contact">
+                            <p><i class="fas fa-envelope"></i> sipho@justiceforall.com</p>
+                            <p><i class="fas fa-phone"></i> +27 12 345 6783</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Thando Nkosi">
+                    </div>
+                    <div class="member-info">
+                        <h3>Adv. Thando Nkosi</h3>
+                        <p class="position">Senior Partner - Labour Law Specialist</p>
+                        <p>With over 15 years of experience in labour law, Adv. Nkosi has represented hundreds of workers in unfair dismissal and workplace discrimination cases.</p>
+                        <div class="member-contact">
+                            <p><i class="fas fa-envelope"></i> thando@justiceforall.com</p>
+                            <p><i class="fas fa-phone"></i> +27 12 345 6781</p>
                         </div>
                     </div>
                 </div>
