@@ -7,8 +7,8 @@ include 'includes/header.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <main>
-    <!-- Hero Section -->
     <section class="about-hero">
         <div class="container">
             <div class="hero-content">
@@ -32,7 +32,6 @@ include 'includes/header.php';
         </div>
     </section>
 
-    <!-- Mission Section -->
     <section class="mission-section">
         <div class="container">
             <div class="mission-content">
@@ -52,25 +51,24 @@ include 'includes/header.php';
                             <h4>Community Focus</h4>
                             <p>Deeply invested in the communities we serve</p>
                         </div>
-                        <div class="point">
+                        <!-- <div class="point">
                             <i class="fas fa-gavel"></i>
                             <h4>Expertise</h4>
                             <p>Specialized knowledge across multiple practice areas</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="mission-image">
                     <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Our Team in Discussion" loading="lazy">
-                    <div class="experience-badge">
+                    <!-- <div class="experience-badge">
                         <span class="years">10+</span>
                         <span class="label">Years Serving Communities</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Values Section -->
     <section class="values-section">
         <div class="container">
             <div class="section-header">
@@ -119,7 +117,6 @@ include 'includes/header.php';
                 <p class="subtitle">Passionate legal professionals committed to social justice</p>
             </div>
             <div class="team-grid">
-                <!-- Team Member 1 -->
                 <div class="team-card">
                     <div class="team-image">
                         <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Thando Nkosi" loading="lazy">
@@ -132,7 +129,6 @@ include 'includes/header.php';
                     </div>
                 </div>
                 
-                <!-- Team Member 2 -->
                 <div class="team-card">
                     <div class="team-image">
                         <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Lerato Mbeki" loading="lazy">
@@ -170,11 +166,7 @@ include 'includes/header.php';
 
 <?php include 'includes/footer.php'; ?>
 
-<style>
-    /* About Page Styles */
-    
-</style>
 
-<script src="./assets/js/main.js">
+<script src="/assets/js/main.js">
 
 </script>
