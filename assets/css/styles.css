@@ -740,10 +740,15 @@ a:hover {
     color: var(--white);
 }
 
+.contact-info h3{
+    text-align: start;
+}
+
 .contact-info p {
     display: flex;
-    align-items: center;
+    text-align: start;
     margin-bottom: 15px;
+    align-items: center;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -889,20 +894,25 @@ a:hover {
 }
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     gap: 30px;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
 }
 
 .team-member {
+    align-self: center;
+    justify-self: center;
+    width: 300px;
     background-color: var(--white);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     overflow: hidden;
 }
 
 .member-image {
-    border-radius: 24vw;
+    border-radius: 50%;
     height: 250px;
     width: 250px;
     overflow: hidden;
