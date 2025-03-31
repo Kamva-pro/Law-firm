@@ -27,19 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
-
-// Card hover effects
-document.querySelectorAll('.pricing-card').forEach(card => {
-    card.addEventListener('mouseenter', function() {
-        this.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.15)';
-    });
-    
-    card.addEventListener('mouseleave', function() {
-        this.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.1)';
-    });
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const mobileMenu = document.querySelector('.mobile-menu');
@@ -67,35 +54,68 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-let currentTestimonial = 0;
-const testimonials = document.querySelectorAll('.testimonial');
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const indicators = document.querySelectorAll('.indicator');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
+    
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+        });
+        
+        indicators.forEach((indicator, i) => {
+            indicator.classList.toggle('active', i === index);
+        });
+    }
+    
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
+    
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    }
+    
 
-function showTestimonial(index) {
-    testimonials.forEach((testimonial, i) => {
-        testimonial.style.display = i === index ? 'block' : 'none';
+    let slideInterval = setInterval(nextSlide, 5000);
+    
+    const carousel = document.querySelector('.testimonial-carousel');
+    carousel.addEventListener('mouseenter', () => clearInterval(slideInterval));
+    carousel.addEventListener('mouseleave', () => {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 5000);
     });
-}
-
-showTestimonial(currentTestimonial);
-
-setInterval(() => {
-    currentTestimonial = (currentTestimonial + 1) % testimonials.length;
-    showTestimonial(currentTestimonial);
-}, 5000);
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const targetId = this.getAttribute('href');
-        if (targetId === '#') return;
-        
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 100,
-                behavior: 'smooth'
-            });
+    
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        clearInterval(slideInterval);
+    });
+    
+    prevBtn.addEventListener('click', () => {
+        prevSlide();
+        clearInterval(slideInterval);
+    });
+    
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            currentIndex = index;
+            showSlide(currentIndex);
+            clearInterval(slideInterval);
+        });
+    });
+    
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+            nextSlide();
+            clearInterval(slideInterval);
+        } else if (e.key === 'ArrowLeft') {
+            prevSlide();
+            clearInterval(slideInterval);
         }
     });
 });

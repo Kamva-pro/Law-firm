@@ -119,24 +119,52 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
             <h2>Client Testimonials</h2>
             <p>Hear from those we've helped</p>
         </div>
-        <div class="testimonial-slider">
-            <div class="testimonial">
+        
+        <div class="testimonial-carousel">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide active">
                 <div class="testimonial-content">
-                    <p>"Justice For All helped me with my unfair dismissal case when no other firm would take my case. They were professional and affordable."</p>
-                </div>
-                <div class="testimonial-author">
-                    <div class="author-name">Thabo M.</div>
-                    <div class="author-title">Former Client</div>
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Thabo M." loading="lazy">
+                    </div>
+                    <div class="testimonial-text">
+                        <div class="quote-icon">"</div>
+                        <p>Justice For All helped me with my unfair dismissal case when no other firm would take my case. They were professional and affordable.</p>
+                        <div class="client-info">
+                            <div class="author-name">Thabo M.</div>
+                            <div class="author-title">Former Client</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="testimonial">
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide">
                 <div class="testimonial-content">
-                    <p>"As a small business owner, I couldn't afford expensive legal fees. Justice For All provided excellent contract review services at a price I could afford."</p>
+                    <div class="client-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Nomsa K." loading="lazy">
+                    </div>
+                    <div class="testimonial-text">
+                        <div class="quote-icon">"</div>
+                        <p>As a small business owner, I couldn't afford expensive legal fees. Justice For All provided excellent contract review services at a price I could afford.</p>
+                        <div class="client-info">
+                            <div class="author-name">Nomsa K.</div>
+                            <div class="author-title">Small Business Owner</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="testimonial-author">
-                    <div class="author-name">Nomsa K.</div>
-                    <div class="author-title">Small Business Owner</div>
-                </div>
+            </div>
+            
+            <button class="carousel-nav prev" aria-label="Previous testimonial">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-nav next" aria-label="Next testimonial">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <div class="carousel-indicators">
+                <button class="indicator active" aria-label="Show testimonial 1"></button>
+                <button class="indicator" aria-label="Show testimonial 2"></button>
             </div>
         </div>
     </div>
