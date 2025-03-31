@@ -2,6 +2,9 @@
 $pageTitle = "Contact Us";
 include 'includes/header.php'; 
 
+require_once __DIR__ . '/includes/config.php'; 
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
@@ -42,21 +45,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Address</h3>
-                            <p>Address</p>
+                            <p><?php echo SITE_ADDRESS?></p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h3>Phone</h3>
-                            <p></p>
+                            <p><?php echo SITE_PHONE?></p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p></p>
+                            <p><?php echo SITE_EMAIL?></p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -132,4 +135,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </section>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

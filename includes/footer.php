@@ -1,5 +1,5 @@
 <?php
-require_once  '/opt/lampp/htdocs/law_firm/includes/config.php'; 
+require_once __DIR__ . '/config.php'; 
 ?>
 <footer class="footer">
     <div class="container">
