@@ -40,3 +40,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+document.querySelector('.mobile-menu-btn').addEventListener('click', () => {
+    // Implement mobile menu toggle here
+    alert("Mobile menu will open - add your implementation");
+});
