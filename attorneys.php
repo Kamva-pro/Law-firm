@@ -115,7 +115,7 @@ include 'includes/header.php';
         <div class="container">
             <h2>Ready to Work With Us?</h2>
             <p>Contact us today to schedule a consultation with one of our experienced attorneys.</p>
-            <a href="contact.php" class="btn btn-primary">Contact Our Team</a>
+            <a href="contact" class="btn btn-primary">Contact Our Team</a>
         </div>
     </section>
 </main>

@@ -125,7 +125,7 @@ include 'includes/header.php';
                         <h3>Adv. Thando Nkosi</h3>
                         <p class="position">Senior Partner - Labour Law</p>
                         <p class="bio">15+ years experience fighting for workers' rights</p>
-                        <a href="attorneys.php#thando" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
+                        <a href="attorneys#thando" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 
@@ -137,12 +137,12 @@ include 'includes/header.php';
                         <h3>Adv. Lerato Mbeki</h3>
                         <p class="position">Partner - Criminal Defense</p>
                         <p class="bio">Former public defender with trial expertise</p>
-                        <a href="attorneys.php#lerato" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
+                        <a href="attorneys#lerato" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <a href="attorneys.php" class="btn btn-primary">Meet Full Team</a>
+                <a href="attorneys" class="btn btn-primary">Meet Full Team</a>
             </div>
         </div>
     </section>
@@ -154,7 +154,7 @@ include 'includes/header.php';
                 <h2>Ready to Work With a Firm That Cares?</h2>
                 <p>Schedule your free initial consultation today</p>
                 <div class="cta-buttons">
-                    <a href="contact.php" class="btn btn-primary">Contact Us</a>
+                    <a href="contact" class="btn btn-primary">Contact Us</a>
                     <a href="tel:+27123456789" class="btn btn-secondary">
                         <i class="fas fa-phone"></i> Call Now
                     </a>

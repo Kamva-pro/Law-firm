@@ -22,8 +22,8 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
             <h1>Justice Should Be Accessible To All</h1>
             <p>Providing high-quality, affordable legal services to disadvantaged communities in South Africa.</p>
             <div class="hero-btns">
-                <a href="services.php" class="btn btn-primary">Our Services</a>
-                <a href="contact.php" class="btn btn-secondary">Free Consultation</a>
+                <a href="services" class="btn btn-primary">Our Services</a>
+                <a href="contact" class="btn btn-secondary">Free Consultation</a>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
                         </div>
                     </div>
                     
-                    <a href="about.php" class="btn btn-outline">Learn More</a>
+                    <a href="about" class="btn btn-outline">Learn More</a>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
                 </div>
                 <h3>Labour Law</h3>
                 <p>Employment contracts, disputes, unfair labour practices, and workers' compensation.</p>
-                <a href="services.php#labour" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="services#labour" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="service-card">
                 <div class="service-icon">
@@ -92,7 +92,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
                 </div>
                 <h3>Contracts</h3>
                 <p>Drafting, reviewing, and negotiating contracts for individuals and small businesses.</p>
-                <a href="services.php#contracts" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="services#contracts" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="service-card">
                 <div class="service-icon">
@@ -100,7 +100,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
                 </div>
                 <h3>Criminal Law</h3>
                 <p>Defense against criminal charges, bail applications, and appeals.</p>
-                <a href="services.php#criminal" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="services#criminal" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="service-card">
                 <div class="service-icon">
@@ -108,7 +108,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
                 </div>
                 <h3>Civil Law</h3>
                 <p>Litigation, dispute resolution, and family law matters including divorce and child custody.</p>
-                <a href="services.php#civil" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                <a href="services#civil" class="btn btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
             </div>
         </div>
         <div class="text-center">
-            <a href="contact.php" class="btn btn-primary">Get a Free Quote</a>
+            <a href="contact" class="btn btn-primary">Get a Free Quote</a>
         </div>
     </div>
 </section>

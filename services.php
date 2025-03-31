@@ -31,7 +31,7 @@ include 'includes/header.php';
                         <li>Unfair dismissal cases</li>
                         <li>Collective bargaining agreements</li>
                     </ul>
-                    <a href="contact.php" class="btn btn-primary">Get Help With Labour Law</a>
+                    <a href="contact" class="btn btn-primary">Get Help With Labour Law</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@ include 'includes/header.php';
                         <li>Lease agreements</li>
                         <li>Service level agreements</li>
                     </ul>
-                    <a href="contact.php" class="btn btn-primary">Get Contract Assistance</a>
+                    <a href="contact" class="btn btn-primary">Get Contract Assistance</a>
                 </div>
                 <div class="service-image">
                     <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Contracts">
@@ -67,7 +67,7 @@ include 'includes/header.php';
                         <li>Theft and property crimes</li>
                         <li>Drug-related offenses</li>
                     </ul>
-                    <a href="contact.php" class="btn btn-primary">Get Criminal Defense Help</a>
+                    <a href="contact" class="btn btn-primary">Get Criminal Defense Help</a>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@ include 'includes/header.php';
                         <li>Debt collection matters</li>
                         <li>Personal injury claims</li>
                     </ul>
-                    <a href="contact.php" class="btn btn-primary">Get Civil Law Assistance</a>
+                    <a href="contact" class="btn btn-primary">Get Civil Law Assistance</a>
                 </div>
                 <div class="service-image">
                     <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Civil Law">
@@ -95,7 +95,7 @@ include 'includes/header.php';
         <div class="container">
             <h2>Need Legal Help?</h2>
             <p>Contact us today for a free initial consultation to discuss your legal needs and how we can help.</p>
-            <a href="contact.php" class="btn btn-primary">Get a Free Consultation</a>
+            <a href="contact" class="btn btn-primary">Get a Free Consultation</a>
         </div>
     </section>
 </main>

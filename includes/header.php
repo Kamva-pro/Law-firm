@@ -15,20 +15,21 @@ error_reporting(E_ALL);
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">
+            <a href="/law_firm/"><div class="logo">
                 Justice For All
                 <span>Legal Consultancy</span>
             </div>
+            </a>
             
             <div class="nav-links">
-                <a href="index.php">Home</a>
-                <a href="about.php">About Us</a>
-                <a href="services.php">Services</a>
-                <a href="attorneys.php">Our Team</a>
+                <a href="/law_firm/">Home</a>
+                <a href="about">About Us</a>
+                <a href="services">Services</a>
+                <a href="attorneys">Our Team</a>
             </div>
             
             <div class="nav-cta">
-                <a href="contact.php" class="btn">Contact Us</a>
+                <a href="contact" class="btn btn-primary">Contact Us</a>
             </div>
             
             <div class="mobile-menu-btn">
@@ -38,11 +39,11 @@ error_reporting(E_ALL);
     </nav>
 <div class="mobile-menu">
     <div class="mobile-menu-container">
-        <a href="index.php">Home</a>
-        <a href="about.php">About Us</a>
-        <a href="services.php">Services</a>
-        <a href="attorneys.php">Our Team</a>
-        <a href="contact.php" class="btn">Contact Us</a>
+        <a href="/law_firm/">Home</a>
+        <a href="about">About Us</a>
+        <a href="services">Services</a>
+        <a href="attorneys">Our Team</a>
+        <a href="contact" class="btn">Contact Us</a>
     </div>
 </div>
 
