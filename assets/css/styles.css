@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar style - initially transparent and blurred */
+/* Initial transparent navbar with blur */
+/* Hero section styling */
+/* Hero section styling */
+.hero-section {
+    height: 100vh;
+    background-image: url('../images/hero-bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Navbar style - initially transparent and blurred */
+#navbar {
+    background: rgba(255, 255, 255, 0); /* Transparent */
+    backdrop-filter: blur(10px); /* Blur effect */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+    z-index: 10; /* Ensure it's above the hero section */
+}
+
+/* Navbar when scrolled (after user scrolls) */
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 1); /* Solid white background */
+    backdrop-filter: none; /* Remove blur effect */
+}
+
+/* Navbar text color */
+.navbar-light .navbar-nav .nav-link {
+    color: #000; /* Black text */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007BFF; /* Blue on hover */
+}
+
+/* Adjustments to the hero section */
+.hero-content {
+    z-index: 2;
+}
+
+/* Call to action button styling */
+.cta-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa;
+}
+
+
+
+.services {
+    margin-top: 50px;
+}
+
+.service-card {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.newsletter input {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.newsletter button {
+    width: 200px;
+}
