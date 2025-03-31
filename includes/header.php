@@ -39,3 +39,16 @@ error_reporting(E_ALL);
             </div>
         </div>
     </nav>
+<div class="mobile-menu">
+    <div class="mobile-menu-container">
+        <a href="index.php">Home</a>
+        <a href="about.php">About Us</a>
+        <a href="services.php">Services</a>
+        <a href="attorneys.php">Our Team</a>
+        <a href="contact.php" class="btn">Contact Us</a>
+    </div>
+</div>
+
+    <script src="../assets/js/main.js"></script>
+
+</body>

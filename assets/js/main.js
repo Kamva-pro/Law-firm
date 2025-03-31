@@ -27,28 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Pricing Toggle Interaction
-document.getElementById('pricingToggle').addEventListener('change', function() {
-    const pricingCards = document.querySelectorAll('.pricing-card');
-    
-    pricingCards.forEach(card => {
-        if (this.checked) {
-            // Show flat rate features
-            if (card.dataset.plan === 'hourly') {
-                card.style.display = 'none';
-            } else {
-                card.style.display = 'block';
-            }
-        } else {
-            // Show hourly features
-            if (card.dataset.plan === 'flat') {
-                card.style.display = 'none';
-            } else {
-                card.style.display = 'block';
-            }
-        }
-    });
-});
+
 
 // Card hover effects
 document.querySelectorAll('.pricing-card').forEach(card => {
@@ -61,14 +40,31 @@ document.querySelectorAll('.pricing-card').forEach(card => {
     });
 });
 
-document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
-    document.querySelector('.mobile-menu').classList.toggle('active');
-});
-
-document.querySelectorAll('.mobile-menu a').forEach(link => {
-    link.addEventListener('click', () => {
-        document.querySelector('.mobile-menu').classList.remove('active');
-    });
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+            const icon = this.querySelector('i');
+            if (mobileMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+                mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+            });
+        });
+    }
 });
 
 let currentTestimonial = 0;
@@ -102,9 +98,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
         }
     });
-});
-
-document.querySelector('.mobile-menu-btn').addEventListener('click', () => {
-    // Implement mobile menu toggle here
-    alert("Mobile menu will open - add your implementation");
 });
