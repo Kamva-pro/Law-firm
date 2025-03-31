@@ -1,5 +1,3 @@
-**# Justice For All - Affordable Legal Services**
-
 ## Project Description
 Justice For All is a web-based platform that provides affordable legal services to disadvantaged communities in South Africa. The platform offers a user-friendly interface where individuals and organizations can learn about various legal services, request free consultations, and access legal assistance at fair rates. This initiative aims to bridge the gap in legal access by making quality representation available to those who need it most.
 
