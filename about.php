@@ -119,7 +119,7 @@ include 'includes/header.php';
             <div class="team-grid">
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Thando Nkosi" loading="lazy">
+                        <img src="assets/images/Dakalo-Singo.jpg" alt="Adv. Thando Nkosi" loading="lazy">
                     </div>
                     <div class="team-info">
                         <h3>Adv. Thando Nkosi</h3>
@@ -131,7 +131,7 @@ include 'includes/header.php';
                 
                 <div class="team-card">
                     <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Lerato Mbeki" loading="lazy">
+                        <img src="assets/images/nerisha.jpg" alt="Adv. Lerato Mbeki" loading="lazy">
                     </div>
                     <div class="team-info">
                         <h3>Adv. Lerato Mbeki</h3>

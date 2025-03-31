@@ -24,7 +24,7 @@ include 'includes/header.php';
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Thando Nkosi">
+                        <img src="assets/images/Dakalo-Singo.jpg" alt="Adv. Thando Nkosi">
                     </div>
                     <div class="member-info">
                         <h3>Adv. Thando Nkosi</h3>
@@ -38,7 +38,7 @@ include 'includes/header.php';
                 </div>
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Lerato Mbeki">
+                        <img src="assets/images/dj-tabz-3.jpg" alt="Adv. Lerato Mbeki">
                     </div>
                     <div class="member-info">
                         <h3>Adv. Lerato Mbeki</h3>
@@ -52,7 +52,7 @@ include 'includes/header.php';
                 </div>
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Sipho Dlamini">
+                        <img src="assets/images/lawyer-3.jpg" alt="Adv. Sipho Dlamini">
                     </div>
                     <div class="member-info">
                         <h3>Adv. Sipho Dlamini</h3>
@@ -66,7 +66,7 @@ include 'includes/header.php';
                 </div>
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Nandi Khumalo">
+                        <img src="assets/images/Palesa-Ledwaba.jpg" alt="Adv. Nandi Khumalo">
                     </div>
                     <div class="member-info">
                         <h3>Adv. Nandi Khumalo</h3>
@@ -81,7 +81,7 @@ include 'includes/header.php';
 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Sipho Dlamini">
+                        <img src="assets/images/shane.jpg" alt="Adv. Sipho Dlamini">
                     </div>
                     <div class="member-info">
                         <h3>Adv. Sipho Dlamini</h3>
@@ -95,7 +95,7 @@ include 'includes/header.php';
                 </div>
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="Adv. Thando Nkosi">
+                        <img src="assets/images/nerisha.jpg" alt="Adv. Thando Nkosi">
                     </div>
                     <div class="member-info">
                         <h3>Adv. Thando Nkosi</h3>
