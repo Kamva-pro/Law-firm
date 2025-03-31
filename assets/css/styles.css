@@ -237,6 +237,11 @@ a:hover {
     color: var(--white);
     padding: 180px 0 100px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .hero h1 {
@@ -840,7 +845,15 @@ a:hover {
     color: var(--white);
     padding: 120px 0 60px;
     text-align: center;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed; /* This creates the true parallax effect */
+    background-size: cover;
+
 }
+
+
 
 .page-header h1 {
     font-size: 2.5rem;
@@ -970,7 +983,35 @@ a:hover {
     color: white;
     padding: 120px 0 80px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    z-index: 1;
 }
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .page-header,
+    .about-hero,
+    .hero {
+        background-attachment: scroll; /* Disable parallax on mobile */
+        min-height: 50vh;
+    }
+}
+
 
 .about-hero h1 {
     font-size: 2.8rem;

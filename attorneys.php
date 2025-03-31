@@ -7,6 +7,7 @@ include 'includes/header.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+<body>
 <main>
     <section class="page-header">
         <div class="container">
@@ -119,5 +120,9 @@ include 'includes/header.php';
         </div>
     </section>
 </main>
+<script src="/assets/js/main.js">
+
+</script>
+</body>
 
 <?php include 'includes/footer.php'; ?>

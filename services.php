@@ -7,6 +7,9 @@ include 'includes/header.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
+<body>
+    
 <main>
     <section class="page-header">
         <div class="container">
@@ -19,7 +22,7 @@ include 'includes/header.php';
         <div class="container">
             <div class="service" id="labour">
                 <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Labour Law">
+                    <img src="assets/images/labour.jpg" alt="Labour Law">
                 </div>
                 <div class="service-content">
                     <h2>Labour Law</h2>
@@ -49,13 +52,13 @@ include 'includes/header.php';
                     <a href="contact" class="btn btn-primary">Get Contract Assistance</a>
                 </div>
                 <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Contracts">
+                    <img src="assets/images/contract-2.jpg" alt="Contracts">
                 </div>
             </div>
 
             <div class="service" id="criminal">
                 <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1601760561441-1642052c7eed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Criminal Law">
+                    <img src="assets/images/criminal.jpg" alt="Criminal Law">
                 </div>
                 <div class="service-content">
                     <h2>Criminal Law</h2>
@@ -85,7 +88,7 @@ include 'includes/header.php';
                     <a href="contact" class="btn btn-primary">Get Civil Law Assistance</a>
                 </div>
                 <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Civil Law">
+                    <img src="assets/images/civil.jpg" alt="Civil Law">
                 </div>
             </div>
         </div>
@@ -99,5 +102,8 @@ include 'includes/header.php';
         </div>
     </section>
 </main>
+</body>
+<script src="/assets/js/main.js">
 
+</script>
 <?php include 'includes/footer.php'; ?>

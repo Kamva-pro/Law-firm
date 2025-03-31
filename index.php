@@ -17,8 +17,8 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
 <main>
 
 <section class="hero">
-    <div class="container">
-        <div class="hero-content">
+    <div class="container ">
+        <div class="hero-content ">
             <h1>Justice Should Be Accessible To All</h1>
             <p>Providing high-quality, affordable legal services to disadvantaged communities in South Africa.</p>
             <div class="hero-btns">
@@ -200,6 +200,9 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 </main>
+<script src="/assets/js/main.js">
+
+</script>
 
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
