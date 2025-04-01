@@ -16,7 +16,7 @@ require_once __DIR__ . '/config.php';
             <div class="footer-links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="/law_firm/">Home</a></li>
+                    <li><a href=<?php echo BASE_URL; ?>>Home</a></li>
                     <li><a href="about">About Us</a></li>
                     <li><a href="services">Services</a></li>
                     <li><a href="attorneys">Our Team</a></li>

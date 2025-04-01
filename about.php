@@ -1,6 +1,7 @@
 <?php 
 $pageTitle = "About Our Firm";
 include 'includes/header.php'; 
+
 ?>
 <head>
     <meta charset="UTF-8">

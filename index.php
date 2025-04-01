@@ -18,8 +18,8 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
 
 <section class="hero">
     <div class="container ">
-        <div class="hero-content ">
-            <h1>Justice Should Be Accessible To All</h1>
+        <div class="hero-content typing-wrapper">
+            <h1 class="typing">Justice Should Be Accessible To All</h1>
             <p>Providing high-quality, affordable legal services to disadvantaged communities in South Africa.</p>
             <div class="hero-btns">
                 <a href="services" class="btn btn-primary">Our Services</a>
@@ -29,7 +29,9 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="mission-section">
+<div id="progress-bar"></div>
+
+<section class="mission-section fade-in">
     <div class="container">
         <div class="mission-content">
             <div class="mission-image">
@@ -71,7 +73,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="services-preview">
+<section class="services-preview fade-in">
     <div class="container">
         <div class="section-header">
             <h2>Our Legal Services</h2>
@@ -114,7 +116,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="pricing-section">
+<section class="pricing-section fade-in">
     <div class="container">
         <div class="section-header">
             <h2>Affordable Pricing</h2>
@@ -143,7 +145,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="testimonials">
+<section class="testimonials fade-in">
     <div class="container">
         <div class="section-header">
             <h2>Client Testimonials</h2>

@@ -120,3 +120,53 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const fadeElements = document.querySelectorAll(".fade-in");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add("visible");
+                }, index * 200); 
+            } else {
+                entry.target.classList.remove("visible");
+            }
+        });
+    }, { threshold: 0.2 });
+
+    fadeElements.forEach(el => observer.observe(el));
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const typingElements = document.querySelectorAll('.typing');
+
+    typingElements.forEach(function (element) {
+        const textContent = element.textContent.trim();  
+        element.textContent = ''; // Clear existing content
+
+        let charIndex = 0;
+
+        function typeCharacter() {
+            if (charIndex < textContent.length) {
+                element.textContent += textContent[charIndex];  
+                charIndex++;
+
+                setTimeout(typeCharacter, 100); 
+            }
+        }
+
+        typeCharacter();  // Start typing animation
+    });
+});
+
+
+
+
+
+
+
+window.addEventListener("scroll", function () {
+    const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+    document.getElementById("progress-bar").style.width = scrolled + "%";
+});
