@@ -244,6 +244,7 @@ a:hover {
     z-index: 1;
 }
 
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -691,10 +692,14 @@ a:hover {
     padding: 60px 0 20px;
 }
 
+.footer-about{
+    margin-right: 48px;
+}
+
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
+    gap: 20px;
     margin-bottom: 40px;
 }
 
@@ -707,6 +712,7 @@ a:hover {
     font-weight: 700;
     font-size: 22px;
     color: var(--secondary-color);
+
 }
 
 .footer-logo .logo-subtext {
@@ -721,6 +727,7 @@ a:hover {
     margin-bottom: 20px;
     font-size: 1.2rem;
 }
+
 
 .footer-links ul {
     list-style: none;

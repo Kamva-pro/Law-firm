@@ -119,7 +119,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
 document.addEventListener("DOMContentLoaded", function () {
     const fadeElements = document.querySelectorAll(".fade-in");
 
@@ -128,15 +127,16 @@ document.addEventListener("DOMContentLoaded", function () {
             if (entry.isIntersecting) {
                 setTimeout(() => {
                     entry.target.classList.add("visible");
-                }, index * 200); 
+                }, index * 200); // 200ms delay between each element appearing
             } else {
-                entry.target.classList.remove("visible");
+                entry.target.classList.remove("visible"); // Reset animation when out of view
             }
         });
     }, { threshold: 0.2 });
 
     fadeElements.forEach(el => observer.observe(el));
 });
+
 
 document.addEventListener('DOMContentLoaded', function () {
     const typingElements = document.querySelectorAll('.typing');
