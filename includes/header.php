@@ -2,6 +2,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+include 'config.php'; 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,14 +17,14 @@ error_reporting(E_ALL);
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="/law_firm/"><div class="logo">
+            <a href=<?php echo BASE_URL; ?>><div class="logo">
                 Justice For All
                 <span>Legal Consultancy</span>
             </div>
             </a>
             
             <div class="nav-links">
-                <a href="/law_firm/">Home</a>
+                <a href=<?php echo BASE_URL; ?>>Home</a>
                 <a href="about">About Us</a>
                 <a href="services">Services</a>
                 <a href="attorneys">Our Team</a>
@@ -39,7 +41,7 @@ error_reporting(E_ALL);
     </nav>
 <div class="mobile-menu">
     <div class="mobile-menu-container">
-        <a href="/law_firm/">Home</a>
+        <a href=<?php echo BASE_URL; ?>>Home</a>
         <a href="about">About Us</a>
         <a href="services">Services</a>
         <a href="attorneys">Our Team</a>

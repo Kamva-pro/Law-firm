@@ -13,4 +13,8 @@ $dotenv->load();
     define('SITE_EMAIL', 'contact@justiceforall.com');
     define('SITE_PHONE', '+27 12 345 6789');
     define('SITE_ADDRESS', '123 Justice Street, Community District, 0001');
+
+    $base_folder = trim(dirname($_SERVER['SCRIPT_NAME']), '/');
+
+    define("BASE_URL", (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . "/" . $base_folder . "/");
 ?>

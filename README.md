@@ -21,7 +21,7 @@ Justice For All is a web-based platform that provides affordable legal services 
    ```
 2. Navigate to the project folder:
    ```sh
-   cd kaw-firm
+   cd law-firm
    ```
 3. Start a local PHP server:
    ```sh
