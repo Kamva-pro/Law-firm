@@ -351,7 +351,10 @@ a:hover {
 .point .outer-point{
     display: flex;
     gap: 8px;
+
 }
+
+
 
 .point i {
     font-size: 1.5rem;
@@ -1120,6 +1123,8 @@ a:hover {
     position: relative;
 }
 
+
+
 .mission-image img {
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -1280,6 +1285,12 @@ a:hover {
 @media (max-width: 768px) {
     .mission-content {
         grid-template-columns: 1fr;
+    }
+
+    .point .outer-point{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     
     .mission-points {
@@ -1561,6 +1572,10 @@ a:hover {
     
     .contact-form {
         padding: 30px 20px;
+    }
+
+    .mission-statement{
+        text-align: center;
     }
 }
 
