@@ -31,38 +31,38 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
 
 <div id="progress-bar"></div>
 
-<section class="mission-section fade-in">
+<section class="mission-section">
     <div class="container">
         <div class="mission-content">
-            <div class="mission-image">
+            <div class="mission-image fade-in">
                 <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Legal team meeting" loading="lazy">
                 <div class="image-overlay"></div>
             </div>
-            <div class="mission-text">
-                <div class="section-header">
+            <div class="mission-text ">
+                <div class="section-header fade-in">
                     <span class="section-badge">Our Commitment</span>
                     <h2>Equal Justice For All</h2>
                     <p class="subtitle">Bridging the gap in legal access for underserved communities</p>
                 </div>
                 <div class="mission-statement">
-                    <p>At Justice For All Legal Consultancy, we believe quality legal representation should be accessible to everyone, regardless of financial circumstances. Our dedicated team provides affordable expertise across multiple practice areas.</p>
+                    <p class="fade-in">At Justice For All Legal Consultancy, we believe quality legal representation should be accessible to everyone, regardless of financial circumstances. Our dedicated team provides affordable expertise across multiple practice areas.</p>
                     
                     <div class="mission-points">
-                        <div class="point">
-                            <div class="outer-point">
+                        <div class="point ">
+                            <div class="outer-point fade-in">
                             <i class="fas fa-scale-balanced"></i>
                             <h4>Comprehensive Legal Support</h4>
                             </div>
                             
-                            <p>Specializing in labour, contracts, criminal, and civil law matters</p>
+                            <p class="fade-in">Specializing in labour, contracts, criminal, and civil law matters</p>
                         </div>
                         <div class="point">
-                            <div class="outer-point">
+                            <div class="outer-point fade-in">
                             <i class="fas fa-hand-holding-heart"></i>
                             <h4>Community Focused</h4>
                             </div>
                             
-                            <p>Tailored solutions for individuals and organizations in need</p>
+                            <p class="fade-in">Tailored solutions for individuals and organizations in need</p>
                         </div>
                     </div>
                     
@@ -73,7 +73,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="services-preview fade-in">
+<section class="services-preview">
     <div class="container">
         <div class="section-header">
             <h2>Our Legal Services</h2>
@@ -116,7 +116,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="pricing-section fade-in">
+<section class="pricing-section">
     <div class="container">
         <div class="section-header">
             <h2>Affordable Pricing</h2>
@@ -145,7 +145,7 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
     </div>
 </section>
 
-<section class="testimonials fade-in">
+<section class="testimonials ">
     <div class="container">
         <div class="section-header">
             <h2>Client Testimonials</h2>
@@ -153,7 +153,6 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
         </div>
         
         <div class="testimonial-carousel">
-            <!-- Testimonial 1 -->
             <div class="testimonial-slide active">
                 <div class="testimonial-content">
                     <div class="client-image">
@@ -170,7 +169,6 @@ $pageTitle = "Affordable Legal Services for Disadvantaged Communities";
                 </div>
             </div>
             
-            <!-- Testimonial 2 -->
             <div class="testimonial-slide">
                 <div class="testimonial-content">
                     <div class="client-image">

@@ -801,6 +801,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .hero{
+        padding: 72px 0 24px !important;
+
+    }
     .main-nav {
         display: none;
     }
@@ -825,6 +829,7 @@ a:hover {
 
 @media (max-width: 576px) {
     .hero {
+
         padding: 150px 0 80px;
     }
     
