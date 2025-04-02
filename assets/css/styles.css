@@ -413,6 +413,10 @@ a:hover {
 }
 
 /* Services Preview */
+
+.service{
+    margin-bottom: 48px;
+}
 .services-preview {
     padding: 80px 0;
 }
@@ -1635,8 +1639,10 @@ a:hover {
 .fade-in {
     opacity: 0;
     transform: translateY(150px);
+    will-change: opacity, transform;
     transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
 
 .fade-in.visible {
     opacity: 1;

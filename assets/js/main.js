@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.target.classList.remove("visible"); // Reset animation when out of view
             }
         });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.5});
 
     fadeElements.forEach(el => observer.observe(el));
 });

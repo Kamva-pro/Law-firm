@@ -9,7 +9,7 @@ include 'includes/header.php';
 </head>
 
 <body>
-    
+<div id="progress-bar"></div>
 <main>
     <section class="page-header">
         <div class="container">
@@ -21,10 +21,10 @@ include 'includes/header.php';
     <section class="services-detail">
         <div class="container">
             <div class="service" id="labour">
-                <div class="service-image">
+                <div class="service-image fade-in">
                     <img src="assets/images/labour.jpg" alt="Labour Law">
                 </div>
-                <div class="service-content">
+                <div class="service-content fade-in">
                     <h2>Labour Law</h2>
                     <p>We provide comprehensive legal services in all aspects of labour law to protect workers' rights and ensure fair treatment in the workplace.</p>
                     <ul>
@@ -39,7 +39,10 @@ include 'includes/header.php';
             </div>
 
             <div class="service" id="contracts">
-                <div class="service-content">
+                  <div class="service-image fade-in">
+                    <img src="assets/images/contract-2.jpg" alt="Contracts">
+                </div>
+                <div class="service-content fade-in">
                     <h2>Contracts</h2>
                     <p>We help individuals and small businesses with all aspects of contract law to ensure your agreements are legally sound and protect your interests.</p>
                     <ul>
@@ -51,16 +54,14 @@ include 'includes/header.php';
                     </ul>
                     <a href="contact" class="btn btn-primary">Get Contract Assistance</a>
                 </div>
-                <div class="service-image">
-                    <img src="assets/images/contract-2.jpg" alt="Contracts">
-                </div>
+              
             </div>
 
             <div class="service" id="criminal">
-                <div class="service-image">
+                <div class="service-image fade-in">
                     <img src="assets/images/criminal.jpg" alt="Criminal Law">
                 </div>
-                <div class="service-content">
+                <div class="service-content fade-in">
                     <h2>Criminal Law</h2>
                     <p>We provide strong legal defense for individuals facing criminal charges, ensuring their rights are protected throughout the legal process.</p>
                     <ul>
@@ -75,7 +76,10 @@ include 'includes/header.php';
             </div>
 
             <div class="service" id="civil">
-                <div class="service-content">
+                <div class="service-image fade-in">
+                    <img src="assets/images/civil.jpg" alt="Civil Law">
+                </div>
+                <div class="service-content fade-in">
                     <h2>Civil Law</h2>
                     <p>We handle a wide range of civil legal matters, helping clients resolve disputes and protect their rights in non-criminal cases.</p>
                     <ul>
@@ -87,15 +91,13 @@ include 'includes/header.php';
                     </ul>
                     <a href="contact" class="btn btn-primary">Get Civil Law Assistance</a>
                 </div>
-                <div class="service-image">
-                    <img src="assets/images/civil.jpg" alt="Civil Law">
-                </div>
+                
             </div>
         </div>
     </section>
 
     <section class="cta-section">
-        <div class="container">
+        <div class="container fade-in">
             <h2>Need Legal Help?</h2>
             <p>Contact us today for a free initial consultation to discuss your legal needs and how we can help.</p>
             <a href="contact" class="btn btn-primary">Get a Free Consultation</a>

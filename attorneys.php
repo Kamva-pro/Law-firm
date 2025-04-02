@@ -8,6 +8,7 @@ include 'includes/header.php';
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+<div id="progress-bar"></div>
 <main>
     <section class="page-header">
         <div class="container">

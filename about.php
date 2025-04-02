@@ -10,6 +10,8 @@ include 'includes/header.php';
 </head>
 
 <main>
+    <div id="progress-bar"></div>
+
     <section class="about-hero">
         <div class="container">
             <div class="hero-content typing-wrapper">
