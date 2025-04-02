@@ -12,8 +12,8 @@ include 'includes/header.php';
 <main>
     <section class="about-hero">
         <div class="container">
-            <div class="hero-content">
-                <h1>Justice For All Legal Consultancy</h1>
+            <div class="hero-content typing-wrapper">
+                <h1 class="typing">Justice For All Legal Consultancy</h1>
                 <p class="subtitle">Bridging the gap in access to justice for underserved communities</p>
                 <div class="stats-grid">
                     <div class="stat-item">
@@ -37,17 +37,17 @@ include 'includes/header.php';
         <div class="container">
             <div class="mission-content">
                 <div class="mission-text">
-                    <span class="section-badge">Our Mission</span>
-                    <h2>Making Legal Services Accessible</h2>
-                    <p class="lead">We believe everyone deserves quality legal representation, regardless of financial circumstances.</p>
+                    <span class="section-badge fade-in">Our Mission</span>
+                    <h2 fade-in>Making Legal Services Accessible</h2>
+                    <p class="lead fade-in">We believe everyone deserves quality legal representation, regardless of financial circumstances.</p>
                     <p>Founded in 2010, Justice For All was created to address the growing justice gap in South Africa. Our team of dedicated attorneys specializes in providing affordable legal services to individuals and businesses who might otherwise go without proper representation.</p>
                     <div class="mission-points">
-                        <div class="point">
+                        <div class="point fade-in">
                             <i class="fas fa-scale-balanced"></i>
                             <h4>Equal Access</h4>
                             <p>Sliding scale fees and flexible payment options</p>
                         </div>
-                        <div class="point">
+                        <div class="point fade-in">
                             <i class="fas fa-hand-holding-heart"></i>
                             <h4>Community Focus</h4>
                             <p>Deeply invested in the communities we serve</p>
@@ -59,7 +59,7 @@ include 'includes/header.php';
                         </div> -->
                     </div>
                 </div>
-                <div class="mission-image">
+                <div class="mission-image fade-in">
                     <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Our Team in Discussion" loading="lazy">
                     <!-- <div class="experience-badge">
                         <span class="years">10+</span>
@@ -72,33 +72,33 @@ include 'includes/header.php';
 
     <section class="values-section">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header fade-in">
                 <span class="section-badge">Our Values</span>
                 <h2>The Principles That Guide Us</h2>
             </div>
             <div class="values-grid">
-                <div class="value-card">
+                <div class="value-card fade-in">
                     <div class="value-icon">
                         <i class="fas fa-universal-access"></i>
                     </div>
                     <h3>Accessibility</h3>
                     <p>We remove financial barriers through affordable rates and flexible payment plans.</p>
                 </div>
-                <div class="value-card">
+                <div class="value-card fade-in">
                     <div class="value-icon">
                         <i class="fas fa-star"></i>
                     </div>
                     <h3>Excellence</h3>
                     <p>While affordable, we never compromise on the quality of our legal work.</p>
                 </div>
-                <div class="value-card">
+                <div class="value-card fade-in">
                     <div class="value-icon">
                         <i class="fas fa-people-group"></i>
                     </div>
                     <h3>Community</h3>
                     <p>We're part of the neighborhoods we serve, not just another law firm.</p>
                 </div>
-                <div class="value-card">
+                <div class="value-card fade-in">
                     <div class="value-icon">
                         <i class="fas fa-shield-halved"></i>
                     </div>
@@ -112,13 +112,13 @@ include 'includes/header.php';
     <!-- Team Preview -->
     <section class="team-preview">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header fade-in">
                 <span class="section-badge">Our Team</span>
                 <h2>Meet Our Dedicated Attorneys</h2>
                 <p class="subtitle">Passionate legal professionals committed to social justice</p>
             </div>
             <div class="team-grid">
-                <div class="team-card">
+                <div class="team-card fade-in">
                     <div class="team-image">
                         <img src="assets/images/Dakalo-Singo.jpg" alt="Adv. Thando Nkosi" loading="lazy">
                     </div>
@@ -131,7 +131,7 @@ include 'includes/header.php';
                 </div>
                 
                 <div class="team-card">
-                    <div class="team-image">
+                    <div class="team-image fade-in">
                         <img src="assets/images/nerisha.jpg" alt="Adv. Lerato Mbeki" loading="lazy">
                     </div>
                     <div class="team-info">
@@ -149,9 +149,9 @@ include 'includes/header.php';
     </section>
 
     <!-- CTA Section -->
-    <section class="about-cta">
+    <section class="about-cta ">
         <div class="container">
-            <div class="cta-card">
+            <div class="cta-card fade-in">
                 <h2>Ready to Work With a Firm That Cares?</h2>
                 <p>Schedule your free initial consultation today</p>
                 <div class="cta-buttons">

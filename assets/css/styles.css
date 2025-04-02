@@ -699,9 +699,7 @@ a:hover {
     padding: 60px 0 20px;
 }
 
-.footer-about{
 
-}
 
 .footer-grid {
     display: grid;
@@ -739,6 +737,7 @@ a:hover {
     display: flex;
     gap: 4px;
     flex-direction: column;
+    margin-left: 80px;
 }
 
 .footer-links ul {
@@ -1378,6 +1377,14 @@ a:hover {
     
     .page-header p {
         font-size: 1rem;
+    }
+
+    .footer-links{
+        margin-left: 0;
+    }
+
+    .hero-content h1{
+        font-size: 36px;
     }
 }
 
