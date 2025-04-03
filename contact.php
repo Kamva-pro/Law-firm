@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Contact Us";
-include 'includes/header.php'; 
+include_once 'includes/header.php'; 
 
 require_once __DIR__ . '/includes/config.php'; 
 

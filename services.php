@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Our Legal Services";
-include 'includes/header.php'; 
+include_once 'includes/header.php'; 
 ?>
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@ include 'includes/header.php';
                 <div class="service-image fade-in">
                     <img src="assets/images/labour.jpg" alt="Labour Law">
                 </div>
-                <div class="service-content fade-in">
+                <div class="service-content slide-up-animation">
                     <h2>Labour Law</h2>
                     <p>We provide comprehensive legal services in all aspects of labour law to protect workers' rights and ensure fair treatment in the workplace.</p>
                     <ul>
@@ -34,15 +34,15 @@ include 'includes/header.php';
                         <li>Unfair dismissal cases</li>
                         <li>Collective bargaining agreements</li>
                     </ul>
-                    <a href="contact" class="btn btn-primary">Get Help With Labour Law</a>
+                    <a href="contact.php" class="btn btn-primary">Get Help With Labour Law</a>
                 </div>
             </div>
 
             <div class="service" id="contracts">
-                  <div class="service-image fade-in">
+                  <div class="service-image slide-up-animation">
                     <img src="assets/images/contract-2.jpg" alt="Contracts">
                 </div>
-                <div class="service-content fade-in">
+                <div class="service-content slide-up-animation">
                     <h2>Contracts</h2>
                     <p>We help individuals and small businesses with all aspects of contract law to ensure your agreements are legally sound and protect your interests.</p>
                     <ul>
@@ -52,16 +52,16 @@ include 'includes/header.php';
                         <li>Lease agreements</li>
                         <li>Service level agreements</li>
                     </ul>
-                    <a href="contact" class="btn btn-primary">Get Contract Assistance</a>
+                    <a href="contact.php" class="btn btn-primary">Get Contract Assistance</a>
                 </div>
               
             </div>
 
             <div class="service" id="criminal">
-                <div class="service-image fade-in">
+                <div class="service-image slide-up-animation">
                     <img src="assets/images/criminal.jpg" alt="Criminal Law">
                 </div>
-                <div class="service-content fade-in">
+                <div class="service-content slide-up-animation">
                     <h2>Criminal Law</h2>
                     <p>We provide strong legal defense for individuals facing criminal charges, ensuring their rights are protected throughout the legal process.</p>
                     <ul>
@@ -71,12 +71,12 @@ include 'includes/header.php';
                         <li>Theft and property crimes</li>
                         <li>Drug-related offenses</li>
                     </ul>
-                    <a href="contact" class="btn btn-primary">Get Criminal Defense Help</a>
+                    <a href="contact.php" class="btn btn-primary">Get Criminal Defense Help</a>
                 </div>
             </div>
 
             <div class="service" id="civil">
-                <div class="service-image fade-in">
+                <div class="service-image slide-up-animation">
                     <img src="assets/images/civil.jpg" alt="Civil Law">
                 </div>
                 <div class="service-content fade-in">
@@ -89,7 +89,7 @@ include 'includes/header.php';
                         <li>Debt collection matters</li>
                         <li>Personal injury claims</li>
                     </ul>
-                    <a href="contact" class="btn btn-primary">Get Civil Law Assistance</a>
+                    <a href="contact.php" class="btn btn-primary">Get Civil Law Assistance</a>
                 </div>
                 
             </div>
@@ -97,10 +97,10 @@ include 'includes/header.php';
     </section>
 
     <section class="cta-section">
-        <div class="container fade-in">
+        <div class="container slide-up-animation">
             <h2>Need Legal Help?</h2>
             <p>Contact us today for a free initial consultation to discuss your legal needs and how we can help.</p>
-            <a href="contact" class="btn btn-primary">Get a Free Consultation</a>
+            <a href="contact.php" class="btn btn-primary">Get a Free Consultation</a>
         </div>
     </section>
 </main>

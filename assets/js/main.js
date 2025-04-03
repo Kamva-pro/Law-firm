@@ -119,23 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-document.addEventListener("DOMContentLoaded", function () {
-    const fadeElements = document.querySelectorAll(".fade-in");
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry, index) => {
-            if (entry.isIntersecting) {
-                setTimeout(() => {
-                    entry.target.classList.add("visible");
-                }, index * 200); // 200ms delay between each element appearing
-            } else {
-                entry.target.classList.remove("visible"); // Reset animation when out of view
-            }
-        });
-    }, { threshold: 0.5});
-
-    fadeElements.forEach(el => observer.observe(el));
-});
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -169,4 +153,120 @@ document.addEventListener('DOMContentLoaded', function () {
 window.addEventListener("scroll", function () {
     const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
     document.getElementById("progress-bar").style.width = scrolled + "%";
+});
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Configuration
+  const animationConfig = {
+    root: null, // uses the viewport
+    rootMargin: '0px',
+    threshold: 0.1 // 10% of the element must be visible
+  };
+
+  // Animation classes - add these to your CSS
+  const animationClasses = {
+    fadeIn: 'fade-in-animation',
+    slideUp: 'slide-up-animation',
+    slideLeft: 'slide-left-animation',
+    slideRight: 'slide-right-animation',
+    zoomIn: 'zoom-in-animation',
+    visible: 'animation-visible'
+  };
+
+  // Add these styles to your CSS
+  const style = document.createElement('style');
+  style.textContent = `
+    /* Base animation styles */
+    .fade-in-animation {
+      opacity: 0;
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .slide-up-animation {
+      opacity: 0;
+      transform: translateY(120px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .slide-left-animation {
+      opacity: 0;
+      transform: translateX(-120px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .slide-right-animation {
+      opacity: 0;
+      transform: translateX(120px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .zoom-in-animation {
+      opacity: 0;
+      transform: scale(0.95);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    /* Visible state */
+    .animation-visible {
+      opacity: 1;
+      transform: translateY(0) translateX(0) scale(1);
+    }
+    
+    /* Mobile optimizations */
+    @media (max-width: 768px) {
+      .slide-up-animation,
+      .slide-left-animation,
+      .slide-right-animation {
+        transform: translateY(100px);
+      }
+      
+      .zoom-in-animation {
+        transform: scale(0.98);
+      }
+    }
+  `;
+  document.head.appendChild(style);
+
+  // Initialize Intersection Observer
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add(animationClasses.visible);
+        
+        // Optional: Unobserve after animation to improve performance
+        observer.unobserve(entry.target);
+      }
+    });
+  }, animationConfig);
+
+  // Find all elements with animation classes and observe them
+  const animatableElements = document.querySelectorAll(`
+    .${animationClasses.fadeIn},
+    .${animationClasses.slideUp},
+    .${animationClasses.slideLeft},
+    .${animationClasses.slideRight},
+    .${animationClasses.zoomIn}
+  `);
+
+  animatableElements.forEach(element => {
+    observer.observe(element);
+  });
+
+  // Handle resize events for responsive adjustments
+  let resizeTimer;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      // Re-check visibility on resize (especially important for mobile orientation changes)
+      animatableElements.forEach(element => {
+        const bounds = element.getBoundingClientRect();
+        const isVisible = bounds.top < window.innerHeight && bounds.bottom > 0;
+        if (isVisible) {
+          element.classList.add(animationClasses.visible);
+        }
+      });
+    }, 250);
+  });
 });

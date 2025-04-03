@@ -1,12 +1,12 @@
 <?php
-require_once __DIR__ . '/config.php'; 
+include_once 'config.php'; 
 ?>
 <footer class="footer">
     <div class="container">
         <div class="footer-grid">
             <div class="footer-about">
                 <div class="footer-logo">
-                    <a href="/law_firm/">
+                    <a href="<?php echo BASE_URL; ?>">
                         <span class="logo-text">Justice For All</span><br>
                         <span class="logo-subtext">Legal Consultancy</span>
                     </a> 
@@ -17,19 +17,19 @@ require_once __DIR__ . '/config.php';
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href=<?php echo BASE_URL; ?>>Home</a></li>
-                    <li><a href="about">About Us</a></li>
-                    <li><a href="services">Services</a></li>
-                    <li><a href="attorneys">Our Team</a></li>
-                     <li><a href="contact">Contact</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="attorneys.php">Our Team</a></li>
+                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-links">
                 <h3>Services</h3>
                 <ul>
-                    <li><a href="services#labour">Labour Law</a></li>
-                    <li><a href="services#contracts">Contracts</a></li>
-                    <li><a href="services#criminal">Criminal Law</a></li>
-                    <li><a href="services#civil">Civil Law</a></li>
+                    <li><a href="services.php#labour">Labour Law</a></li>
+                    <li><a href="services.php#contracts">Contracts</a></li>
+                    <li><a href="services.php#criminal">Criminal Law</a></li>
+                    <li><a href="services.php#civil">Civil Law</a></li>
                 </ul>
             </div>
             <div class="contact-info">

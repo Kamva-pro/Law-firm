@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "About Our Firm";
-include 'includes/header.php'; 
+include_once 'includes/header.php'; 
 
 ?>
 <head>
@@ -14,7 +14,7 @@ include 'includes/header.php';
 
     <section class="about-hero">
         <div class="container">
-            <div class="hero-content typing-wrapper">
+            <div class="hero-content typing-wrapper fade-in-animation">
                 <h1 class="typing">Justice For All Legal Consultancy</h1>
                 <p class="subtitle">Bridging the gap in access to justice for underserved communities</p>
                 <div class="stats-grid">
@@ -39,17 +39,17 @@ include 'includes/header.php';
         <div class="container">
             <div class="mission-content">
                 <div class="mission-text">
-                    <span class="section-badge fade-in">Our Mission</span>
-                    <h2 fade-in>Making Legal Services Accessible</h2>
-                    <p class="lead fade-in">We believe everyone deserves quality legal representation, regardless of financial circumstances.</p>
-                    <p>Founded in 2010, Justice For All was created to address the growing justice gap in South Africa. Our team of dedicated attorneys specializes in providing affordable legal services to individuals and businesses who might otherwise go without proper representation.</p>
+                    <span class="section-badge slide-up-animation">Our Mission</span>
+                    <h2 >Making Legal Services Accessible</h2>
+                    <p class="lead slide-up-animation">We believe everyone deserves quality legal representation, regardless of financial circumstances.</p>
+                    <p class="slide-up-animation">Founded in 2010, Justice For All was created to address the growing justice gap in South Africa. Our team of dedicated attorneys specializes in providing affordable legal services to individuals and businesses who might otherwise go without proper representation.</p>
                     <div class="mission-points">
-                        <div class="point fade-in">
+                        <div class="point slide-up-animation">
                             <i class="fas fa-scale-balanced"></i>
                             <h4>Equal Access</h4>
                             <p>Sliding scale fees and flexible payment options</p>
                         </div>
-                        <div class="point fade-in">
+                        <div class="point slide-up-animation">
                             <i class="fas fa-hand-holding-heart"></i>
                             <h4>Community Focus</h4>
                             <p>Deeply invested in the communities we serve</p>
@@ -61,7 +61,7 @@ include 'includes/header.php';
                         </div> -->
                     </div>
                 </div>
-                <div class="mission-image fade-in">
+                <div class="mission-image slide-up-animation">
                     <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Our Team in Discussion" loading="lazy">
                     <!-- <div class="experience-badge">
                         <span class="years">10+</span>
@@ -74,33 +74,33 @@ include 'includes/header.php';
 
     <section class="values-section">
         <div class="container">
-            <div class="section-header fade-in">
+            <div class="section-header slide-up-animation">
                 <span class="section-badge">Our Values</span>
                 <h2>The Principles That Guide Us</h2>
             </div>
             <div class="values-grid">
-                <div class="value-card fade-in">
+                <div class="value-card slide-up-animation">
                     <div class="value-icon">
                         <i class="fas fa-universal-access"></i>
                     </div>
                     <h3>Accessibility</h3>
                     <p>We remove financial barriers through affordable rates and flexible payment plans.</p>
                 </div>
-                <div class="value-card fade-in">
+                <div class="value-card slide-up-animation">
                     <div class="value-icon">
                         <i class="fas fa-star"></i>
                     </div>
                     <h3>Excellence</h3>
                     <p>While affordable, we never compromise on the quality of our legal work.</p>
                 </div>
-                <div class="value-card fade-in">
+                <div class="value-card slide-up-animation">
                     <div class="value-icon">
                         <i class="fas fa-people-group"></i>
                     </div>
                     <h3>Community</h3>
                     <p>We're part of the neighborhoods we serve, not just another law firm.</p>
                 </div>
-                <div class="value-card fade-in">
+                <div class="value-card slide-up-animation">
                     <div class="value-icon">
                         <i class="fas fa-shield-halved"></i>
                     </div>
@@ -114,13 +114,13 @@ include 'includes/header.php';
     <!-- Team Preview -->
     <section class="team-preview">
         <div class="container">
-            <div class="section-header fade-in">
+            <div class="section-header slide-up-animation">
                 <span class="section-badge">Our Team</span>
                 <h2>Meet Our Dedicated Attorneys</h2>
                 <p class="subtitle">Passionate legal professionals committed to social justice</p>
             </div>
             <div class="team-grid">
-                <div class="team-card fade-in">
+                <div class="team-card slide-up-animation">
                     <div class="team-image">
                         <img src="assets/images/Dakalo-Singo.jpg" alt="Adv. Thando Nkosi" loading="lazy">
                     </div>
@@ -128,24 +128,24 @@ include 'includes/header.php';
                         <h3>Adv. Thando Nkosi</h3>
                         <p class="position">Senior Partner - Labour Law</p>
                         <p class="bio">15+ years experience fighting for workers' rights</p>
-                        <a href="attorneys#thando" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
+                        <a href="attorneys.php#thando" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 
                 <div class="team-card">
-                    <div class="team-image fade-in">
+                    <div class="team-image slide-up-animation">
                         <img src="assets/images/nerisha.jpg" alt="Adv. Lerato Mbeki" loading="lazy">
                     </div>
                     <div class="team-info">
                         <h3>Adv. Lerato Mbeki</h3>
                         <p class="position">Partner - Criminal Defense</p>
                         <p class="bio">Former public defender with trial expertise</p>
-                        <a href="attorneys#lerato" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
+                        <a href="attorneys.php#lerato" class="btn btn-text">View Profile <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <a href="attorneys" class="btn btn-primary">Meet Full Team</a>
+                <a href="attorneys.php" class="btn btn-primary slide-up-animation">Meet Full Team</a>
             </div>
         </div>
     </section>
@@ -153,11 +153,11 @@ include 'includes/header.php';
     <!-- CTA Section -->
     <section class="about-cta ">
         <div class="container">
-            <div class="cta-card fade-in">
+            <div class="cta-card slide-up-animation">
                 <h2>Ready to Work With a Firm That Cares?</h2>
                 <p>Schedule your free initial consultation today</p>
                 <div class="cta-buttons">
-                    <a href="contact" class="btn btn-primary">Contact Us</a>
+                    <a href="contact.php" class="btn btn-primary">Contact Us</a>
                     <a href="tel:+27123456789" class="btn btn-secondary">
                         <i class="fas fa-phone"></i> Call Now
                     </a>

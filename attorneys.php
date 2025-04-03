@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Our Legal Team";
-include 'includes/header.php'; 
+include_once 'includes/header.php'; 
 ?>
 <head>
     <meta charset="UTF-8">
@@ -19,16 +19,16 @@ include 'includes/header.php';
 
     <section class="team-section">
         <div class="container">
-            <div class="section-header fade-in">
+            <div class="section-header slide-up-animation">
                 <h2>Meet Our Attorneys</h2>
                 <p>Dedicated legal professionals with expertise in various areas of law</p>
             </div>
             <div class="team-grid">
                 <div class="team-member">
-                    <div class="member-image fade-in">
+                    <div class="member-image slide-up-animation">
                         <img src="assets/images/Dakalo-Singo.jpg" alt="Adv. Thando Nkosi">
                     </div>
-                    <div class="member-info fade-in">
+                    <div class="member-info slide-up-animation">
                         <h3>Adv. Thando Nkosi</h3>
                         <p class="position">Senior Partner - Labour Law Specialist</p>
                         <p>With over 15 years of experience in labour law, Adv. Nkosi has represented hundreds of workers in unfair dismissal and workplace discrimination cases.</p>
@@ -39,10 +39,10 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="team-member">
-                    <div class="member-image fade-in">
+                    <div class="member-image slide-up-animation">
                         <img src="assets/images/dj-tabz-3.jpg" alt="Adv. Lerato Mbeki">
                     </div>
-                    <div class="member-info fade-in">
+                    <div class="member-info slide-up-animation">
                         <h3>Adv. Lerato Mbeki</h3>
                         <p class="position">Partner - Criminal Law Specialist</p>
                         <p>Adv. Mbeki has successfully defended clients in numerous criminal cases, with particular expertise in bail applications and appeals.</p>
@@ -53,10 +53,10 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="team-member">
-                    <div class="member-image fade-in">
+                    <div class="member-image slide-up-animation">
                         <img src="assets/images/lawyer-3.jpg" alt="Adv. Sipho Dlamini">
                     </div>
-                    <div class="member-info fade-in">
+                    <div class="member-info slide-up-animation">
                         <h3>Adv. Sipho Dlamini</h3>
                         <p class="position">Associate - Contracts & Civil Law</p>
                         <p>Adv. Dlamini specializes in contract law and civil disputes, helping small businesses and individuals navigate complex legal agreements.</p>
@@ -67,10 +67,10 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="team-member">
-                    <div class="member-image fade-in">
+                    <div class="member-image slide-up-animation">
                         <img src="assets/images/Palesa-Ledwaba.jpg" alt="Adv. Nandi Khumalo">
                     </div>
-                    <div class="member-info fade-in">
+                    <div class="member-info slide-up-animation">
                         <h3>Adv. Nandi Khumalo</h3>
                         <p class="position">Associate - Family Law</p>
                         <p>Adv. Khumalo focuses on family law matters, providing compassionate representation in divorce, child custody, and domestic violence cases.</p>
@@ -82,10 +82,10 @@ include 'includes/header.php';
                 </div>
 
                 <div class="team-member">
-                    <div class="member-image fade-in">
+                    <div class="member-image slide-up-animation">
                         <img src="assets/images/shane.jpg" alt="Adv. Sipho Dlamini">
                     </div>
-                    <div class="member-info fade-in">
+                    <div class="member-info slide-up-animation">
                         <h3>Adv. Sipho Dlamini</h3>
                         <p class="position">Associate - Contracts & Civil Law</p>
                         <p>Adv. Dlamini specializes in contract law and civil disputes, helping small businesses and individuals navigate complex legal agreements.</p>
@@ -96,10 +96,10 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="team-member">
-                    <div class="member-image fade-in">
+                    <div class="member-image slide-up-animation">
                         <img src="assets/images/nerisha.jpg" alt="Adv. Thando Nkosi">
                     </div>
-                    <div class="member-info fade-in">
+                    <div class="member-info slide-up-animation">
                         <h3>Adv. Thando Nkosi</h3>
                         <p class="position">Senior Partner - Labour Law Specialist</p>
                         <p>With over 15 years of experience in labour law, Adv. Nkosi has represented hundreds of workers in unfair dismissal and workplace discrimination cases.</p>
@@ -114,10 +114,10 @@ include 'includes/header.php';
     </section>
 
     <section class="cta-section">
-        <div class="container fade-in">
+        <div class="container slide-up-animation">
             <h2>Ready to Work With Us?</h2>
             <p>Contact us today to schedule a consultation with one of our experienced attorneys.</p>
-            <a href="contact" class="btn btn-primary">Contact Our Team</a>
+            <a href="contact.php" class="btn btn-primary">Contact Our Team</a>
         </div>
     </section>
 </main>
